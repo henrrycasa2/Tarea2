@@ -1,0 +1,245 @@
+.contenedor{
+    background-color: aquamarine;
+    padding: 10px; 
+    height: 600px;
+    display:flex ;    
+    flex-direction: row; 
+    flex-wrap: wrap; 
+    
+}
+
+
+
+.caja1{
+    background-color: red;
+    margin: 5px;
+    width: 150px;
+    height: 600px;
+    flex-grow: 3;
+    order: 1;
+    display: grid;
+    position: static;
+    grid-template-columns: repeat(2,180px);
+    grid-gap: 15px;
+}
+
+
+.caja11{
+    background-color: white;
+    margin: 20px;
+    width: 150px;
+    height: 250px;
+    flex-grow: 1;
+    
+}
+
+.caja12{
+    background-color: white;
+    margin: 20px;
+    width: 150px;
+    height: 250px;
+    flex-grow: 1;
+    
+}
+
+.caja13{
+    background-color: white;
+    margin: 20px;
+    width: 150px;
+    height: 250px;
+    flex-grow: 1;
+    
+}
+
+.caja14{
+    background-color: white;
+    margin: 20px;
+    width: 150px;
+    height: 250px;
+    flex-grow: 1;
+    
+}
+
+
+.caja2{
+    background-color: yellow;
+    margin: 5px;
+    width: 150px;
+    height: 600px;
+    flex-grow: 5;
+    order: 2;   
+    display:flex ;
+    flex-wrap: wrap;
+    align-items: center;
+   
+    
+}
+
+.caja21{
+    background-color: blue;
+    margin: 20px;
+    width: 100px;
+    height: 100px;
+    flex-grow: 1;
+    display: inline-block;
+}
+
+.caja22{
+    background-color: blue;
+    margin: 20px;
+    width: 100px;
+    height: 100px;
+    flex-grow: 1;
+    display: inline-block;
+}
+
+.caja23{
+    background-color: blue;
+    margin: 20px;
+    width: 100px;
+    height: 100px;
+    flex-grow: 1;
+    display: inline-block;
+}
+
+.caja24{
+    background-color: blue;
+    margin: 20px;
+    width: 100px;
+    height: 100px;
+    flex-grow: 1;
+    display: inline-block;
+}
+.caja25{
+    background-color: blue;
+    margin: 20px;
+    width: 100px;
+    height: 100px;
+    flex-grow: 1;
+    display: inline-block;
+}
+
+.caja26{
+    background-color: blue;
+    margin: 20px;
+    width: 100px;
+    height: 100px;
+    flex-grow: 1;
+    display: inline-block;
+}
+
+.caja26{
+    background-color: blue;
+    margin: 20px;
+    width: 100px;
+    height: 100px;
+    flex-grow: 1;
+    display: inline-block;
+}
+
+.caja27{
+    background-color: blue;
+    margin: 20px;
+    width: 100px;
+    height: 100px;
+    flex-grow: 1;
+    display: inline-block;
+}
+
+.caja28{
+    background-color: blue;
+    margin: 20px;
+    width: 100px;
+    height: 100px;
+    flex-grow: 1;
+    display: inline-block;
+}
+
+
+.caja29{
+    background-color: blue;
+    margin: 20px;
+    width: 100px;
+    height: 100px;
+    flex-grow: 1;
+    display: inline-block;
+}
+
+
+.caja3{
+    background-color: green;
+    margin: 5px;
+    width: 100px;
+    height: 600px;
+    flex-grow: 2; 
+    order: 3;
+    position: static;
+    overflow: hidden;
+}
+
+.caja31{
+    background-color: orange;
+    margin: 12px;
+    width: 90%;
+    height: 70px;
+    flex-grow: 1;
+}
+
+.caja32{
+    background-color: orange;
+    margin: 5px;
+    width: 43%;
+    height: 200px;
+    flex-grow: 1;
+    float: left;
+    margin-right: 3%;
+    margin-left: 5%;
+    margin-top: 4px;
+    margin-bottom: 5px;
+}
+
+.caja33{
+    background-color: orange;
+    margin: 5px;
+    width: 43%;
+    height: 200px;
+    flex-grow: 1;
+    float: left;
+    margin-right: 1%;
+    margin-top: 4px;
+    margin-bottom: 5px;
+}
+
+.caja34{
+    background-color: orange;
+    margin: 12px;
+    width: 90%;
+    height: 70px;
+    flex-grow: 1;
+    margin-right: 10px;
+    clear: left;
+    margin-bottom: 4px;
+}
+.caja35{
+    background-color: orange;
+    margin: 12px;
+    width: 43%;
+    height: 200px;
+    flex-grow: 1;
+    
+    float: left;
+    margin-right: 1%;
+    clear: left;
+}
+
+.caja36{
+    background-color: orange;
+    margin: 12px;
+    width: 43%;
+    height: 200px;
+    flex-grow: 1;
+    
+    float: left;
+    margin-right: 0%;
+    
+}
